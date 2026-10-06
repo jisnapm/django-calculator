@@ -1,0 +1,148 @@
+###
+POST http://localhost:8000/addition/
+Content-Type: application/json
+
+{
+    "num1": 100,
+    "num2": 30
+}
+
+
+###
+POST http://localhost:8000/substraction/
+Content-Type: application/json
+
+{
+    "num1": 100,
+    "num2": 30
+}
+
+
+###
+POST http://localhost:8000/multiplication/
+Content-Type: application/json
+
+{
+    "num1": 100,
+    "num2": 30
+}
+
+###
+POST http://localhost:8000/division/
+Content-Type: application/json
+
+{
+    "num1": 100,
+    "num2": 30
+}
+
+###
+POST http://localhost:8000/modulus/
+Content-Type: application/json
+
+{
+    "num1": 100,
+    "num2": 30
+}
+
+###
+POST http://localhost:8000/percentage/
+Content-Type: application/json
+
+{
+    "obtained": 400,
+    "total": 500
+}
+
+
+###
+POST http://localhost:8000/bmi/
+Content-Type: application/json
+
+{
+    "weight": 70,
+    "height": 175
+}
+
+###
+POST http://localhost:8000/area/
+Content-Type: application/json
+
+{
+    "length": 10,
+    "breadth": 5
+}
+
+###
+POST http://localhost:8000/age/
+Content-Type: application/json
+
+{
+    "birth_year": 2004,
+    "current_year": 2026
+}
+
+###
+POST http://localhost:8000/simple-interest/
+Content-Type: application/json
+
+{
+    "principal": 10000,
+    "rate": 5,
+    "time": 2
+}
+
+###
+POST http://localhost:8000/electricity-bill/
+Content-Type: application/json
+
+{
+    "unit": 150,
+    "rate": 5
+}
+
+###
+POST http://localhost:8000/factorial/
+Content-Type: application/json
+
+{
+    "num": 5
+}
+
+###
+POST http://localhost:8000/armstrong/
+Content-Type: application/json
+
+{
+    "num": 153
+}
+
+###
+POST http://localhost:8000/product-profit/
+Content-Type: application/json
+
+{
+    "cost_price": 800,
+    "selling_price": 1000,
+    "quantity": 25
+}
+
+###
+POST http://localhost:8000/work-salary/
+Content-Type: application/json
+
+{
+    "hours_worked": 180,
+    "regular_hours": 160,
+    "hourly_rate": 200,
+    "overtime_rate": 300
+}
+
+
+###
+POST http://localhost:8000/age-in-units/
+Content-Type: application/json
+
+{
+    "age": 25
+}
