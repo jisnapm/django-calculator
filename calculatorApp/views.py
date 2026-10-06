@@ -10,7 +10,6 @@ from json import loads
 class AdditionView(View):
     def post(self, request):
         request_body = request.body
-        # print(request_body)
         form_data = loads(request_body)  # convert json to dict
         n1 = form_data.get('num1')
         n2 = form_data.get('num2')
